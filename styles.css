@@ -1,0 +1,10 @@
+section {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(172, 172, 172);
+    margin: 20px 100px;
+}
+
+header{
+    margin: 0px 100px;
+}
