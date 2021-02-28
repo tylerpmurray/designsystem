@@ -16,28 +16,45 @@ h2{
     padding: 10px 10px;   
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 
 
 /* Color Section */
 
+.blue, .purple, .yellow, .red{
+    margin: 2px 2px;
+    text-align: center;
+    padding-top: 25px;
+
+}
+
 .blue{
     background-color: rgb(36, 36, 148);
+    color: whitesmoke
+
 }
 
 .purple{
     background-color: rgb(146, 17, 146);
+    color: whitesmoke;
+    
 }
 
 .yellow{
     background-color: rgb(207, 207, 40);
+    
 }
 
 .red{
     background-color: rgb(212, 48, 48);
+   
 }
 
 #color-container div{
-    width: 25%;
+    width: 30%;
     height: 70px;
     display: inline-block;
 }
@@ -54,16 +71,36 @@ h2{
 
 .cabin p{
     font-family: 'Cabin', sans-serif;
-    text-decoration: none;
+    line-height: 40px;
+
 }
 
 .rubik p{
     font-family: 'Roboto', sans-serif;
-    text-decoration: none;
+    line-height: 40px;
 }
 
 .roboto p{
     font-family: 'Rubik', sans-serif;
-    text-decoration: ;
+    line-height: 40px;
 }
 
+/* Headers Section */
+
+.header1 large {
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header2 mid {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.paragraph tiny {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
