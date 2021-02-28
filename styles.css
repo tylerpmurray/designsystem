@@ -8,3 +8,62 @@ section {
 header{
     margin: 0px 100px;
 }
+#color-container, #font-container, #style-container{
+    padding: 10px 10px;
+}
+
+h2{
+    padding: 10px 10px;   
+}
+
+
+
+/* Color Section */
+
+.blue{
+    background-color: rgb(36, 36, 148);
+}
+
+.purple{
+    background-color: rgb(146, 17, 146);
+}
+
+.yellow{
+    background-color: rgb(207, 207, 40);
+}
+
+.red{
+    background-color: rgb(212, 48, 48);
+}
+
+#color-container div{
+    width: 25%;
+    height: 70px;
+    display: inline-block;
+}
+
+/* Font Section */
+.roboto, .rubik, .cabin{
+    display: inline-block;
+    width: 33%;
+}
+
+.roboto h3, .rubik h3, .cabin h3{
+    text-decoration: underline;
+}
+
+.cabin p{
+    font-family: 'Cabin', sans-serif;
+    text-decoration: none;
+}
+
+.rubik p{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.roboto p{
+    font-family: 'Rubik', sans-serif;
+    text-decoration: ;
+}
+
